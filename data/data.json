@@ -38,6 +38,20 @@
                 "/static/images/pic2Project3PNG.PNG",
                 "/static/images/pic3Project3PNG.PNG"
             ]
+        },
+        {
+            "id":3,
+            "project_name":"basic School chat App",
+            "description":"A chat application applied on school so each class student can reach his class mate and share information / chating ",
+            "technologies":["Html / Css","Javascript / JQuery / Ajax","Php (PDO)", "SQL"],
+            "live_link":"",
+            "github_link":"",
+            "image_urls":[
+                "/static/images/pic1Project4PNG.PNG",
+                "/static/images/pic2Project4PNG.PNG",
+                "/static/images/pic3Project4PNG.PNG",
+                "/static/images/pic4Project4PNG.PNG"
+            ]
         }
     ]
 }

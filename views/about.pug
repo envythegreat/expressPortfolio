@@ -6,33 +6,21 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-
-        //- Add your name.
         h1 #{myinfo.fullName}
-
-        //- Feel free personalize the title below
         p.lead.text-light
-          | Full Stack JavaScript Developer.
-
-        //- Replace the boilerplate below with your Elevator pitch below.
+          | Web Developer.
         .portfolio-bio
           p 
             | #{myinfo.description}
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
-
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
           each Skill in myinfo.skills
             li= Skill
         h6 Contact Info
-
-        //- Add your own contact info
         ul
           each info in myinfo.contact
             li= info
-
-        //- Add URLs to the hrefs below to link to your social media accounts.
         a.button.expanded(href='#') LinkedIn
         a.button.expanded(href=`${myinfo.media.Github}` target='_blank') GitHub
         a.button.expanded(href='#') Twitter
