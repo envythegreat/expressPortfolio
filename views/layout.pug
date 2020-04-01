@@ -14,17 +14,15 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src=`${project.image_urls[0]}`)
+            img.thumbnail(src=`${myinfo.profileImg}`)
           .cell.auto
 
             //- Add your name here.
-            h5 Alouani Mohamed Habib
+            h5 #{myinfo.fullName}
 
             //- Add text here to describe who you are,
             p.text-light
-              | Yo, My name is mohamed Habib Alouani i'm 2 years old and some random text
-              |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              |Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              | #{myinfo.description}
 
             //- Add about page route to the href below. 
             a(href='about') Learn More →
@@ -35,7 +33,7 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title #{myinfo.fullName}
       block content
         
 

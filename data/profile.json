@@ -1,0 +1,25 @@
+{
+    "myinfo":
+        {
+            "fullName":"Alouani Mohamed Habib",
+            "description": "Yo, My name is mohamed Habib Alouani i'm 20 years old and some random text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "skills":[
+                "Html / Css",
+                "Javascript / JQuery (OOP)",
+                "PHP (OOP/PDO)",
+                "SQL",
+                "Nodejs / Express Site / npm / git",
+                "Python(OOP)",
+                "Photoshop / Figma / Bootstrap "
+            ],
+            "contact":{
+                "email":"greed.envyme@gmail.com",
+                "Phone":"+212-663806196"
+            },
+            "media":{
+                "Github": "https://github.com/envythegreat"
+            },
+            "profileImg":"/static/images/mypic.jpg"
+        }
+    
+}

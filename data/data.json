@@ -2,41 +2,41 @@
     "projects":[
         {
             "id":0,
-            "project_name":"hello",
-            "description":"Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.",
-            "technologies":["3","2","1"],
-            "live_link":"https://google.com",
-            "github_link":"https://google.com",
+            "project_name":"Guessing Game",
+            "description":"word guessing game: Phrase Hunter You’ll based on JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+            "technologies":["Javascript / JQuery","Html / Css","Object-Oriented Programming"],
+            "live_link":"https://github.com/envythegreat/oopv2",
+            "github_link":"https://github.com/envythegreat/oopv2",
             "image_urls":[
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+                "/static/images/pic1Project1PNG.PNG",
+                "/static/images/pic2Project1PNG.PNG",
+                "/static/images/pic3Project1PNG.PNG"
             ]
         },
         {
             "id":1,
-            "project_name":"hello",
-            "description":"loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
-            "technologies":["3","2","1"],
-            "live_link":"no",
-            "github_link":"no",
+            "project_name":"Public API Requests",
+            "description":"Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I create an employee directory by communicating with a third-party API (Application Programming Interface)",
+            "technologies":["Javascript / JQuery","Ajax / API","Html / Css"],
+            "live_link":"https://github.com/envythegreat/apiv1",
+            "github_link":"https://github.com/envythegreat/apiv1",
             "image_urls":[
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+                "/static/images/pic1Project2PNG.PNG",
+                "/static/images/pic2Project2PNG.PNG",
+                "/static/images/pic3Project2PNG.PNG"
             ]
         },
         {
             "id":2,
-            "project_name":"hello",
-            "description":"loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
-            "technologies":["3","2","1"],
-            "live_link":"no",
-            "github_link":"no",
+            "project_name":"Basic Booking App",
+            "description":"Bokking application to serve the client needs, Booking rooms (In the Hotel is publishing it) Private App",
+            "technologies":["Html / Css","Javascript / JQuery","Php (PDO)", "SQL"],
+            "live_link":"",
+            "github_link":"",
             "image_urls":[
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
-                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+                "/static/images/pic1Project3PNG.PNG",
+                "/static/images/pic2Project3PNG.PNG",
+                "/static/images/pic3Project3PNG.PNG"
             ]
         }
     ]
