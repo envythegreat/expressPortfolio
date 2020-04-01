@@ -13,9 +13,15 @@ app.use(defaultRouter);
 app.use(aboutsRouter);
 app.use(projectRouter);
 
+app.use((req, res, next)=>{
+    const err = new Error('Not found');
+    err.status = 404;
+    next(err);
+})
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.render('error', err);
+    res.status(err.status);
+    res.render('error');
 })
 
 app.listen(3000, ()=>{

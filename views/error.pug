@@ -11,13 +11,11 @@ html(lang='zxx')
       .error-page
         .wrapper-full
           .main-content
-            h2 Sorry
-            h4 Looks like you're lost...
-            p
-              | You can either return to the previous page, visit our homepage or contact our support team.
+            h2= error.message
+            h4= error.status
+            //- p
+            //-     pre= error.stack
             // buttons
             .buttons
-              a.btn.brk-btn-bg.brk-btn(href='index.html')
+              a.btn.brk-btn-bg.brk-btn(href='/')
                 | Go to Homepage
-              a.btn.brk-btn(href='#contact')
-                | Contact Us
