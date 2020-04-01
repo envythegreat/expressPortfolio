@@ -1,0 +1,43 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "project_name":"hello",
+            "description":"Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.",
+            "technologies":["3","2","1"],
+            "live_link":"https://google.com",
+            "github_link":"https://google.com",
+            "image_urls":[
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+            ]
+        },
+        {
+            "id":1,
+            "project_name":"hello",
+            "description":"loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "technologies":["3","2","1"],
+            "live_link":"no",
+            "github_link":"no",
+            "image_urls":[
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+            ]
+        },
+        {
+            "id":2,
+            "project_name":"hello",
+            "description":"loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "technologies":["3","2","1"],
+            "live_link":"no",
+            "github_link":"no",
+            "image_urls":[
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg?",
+                "https://images.pexels.com/photos/289237/pexels-photo-289237.jpeg"
+            ]
+        }
+    ]
+}
