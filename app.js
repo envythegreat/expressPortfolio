@@ -8,12 +8,15 @@ app.set('view engine', 'pug');
 
 const defaultRouter = require('./routes');
 const aboutsRouter = require('./routes/about');
-const projectRouter = require('./routes/project')
-app.use(defaultRouter)
-app.use(aboutsRouter)
-app.use(projectRouter)
+const projectRouter = require('./routes/project');
+app.use(defaultRouter);
+app.use(aboutsRouter);
+app.use(projectRouter);
 
-
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.render('error', err);
+})
 
 app.listen(3000, ()=>{
     console.log('The app is running at 30000');
